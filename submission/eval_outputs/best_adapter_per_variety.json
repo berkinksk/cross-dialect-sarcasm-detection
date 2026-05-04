@@ -1,0 +1,20 @@
+{
+  "en-UK": {
+    "base_short": "Qwen2.5-1.5B",
+    "train_var": "en-UK",
+    "selected_on_val_mean_macro_f1": 0.7252,
+    "reported_test_mean_macro_f1": 0.6495
+  },
+  "en-AU": {
+    "base_short": "OLMo-2-0425-1B",
+    "train_var": "en-AU",
+    "selected_on_val_mean_macro_f1": 0.7437,
+    "reported_test_mean_macro_f1": 0.7561
+  },
+  "en-IN": {
+    "base_short": "Qwen2.5-1.5B",
+    "train_var": "en-IN",
+    "selected_on_val_mean_macro_f1": 0.7209,
+    "reported_test_mean_macro_f1": 0.6078
+  }
+}
