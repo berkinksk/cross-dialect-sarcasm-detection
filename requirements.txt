@@ -1,0 +1,15 @@
+datasets
+pandas
+matplotlib
+seaborn
+nltk
+numpy
+nbformat
+np
+seaborn 
+scikit-learn
+transformers==5.8.0 
+torch 
+tiktoken
+sentencepiece
+lime
