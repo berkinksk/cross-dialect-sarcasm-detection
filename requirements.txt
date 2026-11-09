@@ -5,11 +5,12 @@ seaborn
 nltk
 numpy
 nbformat
-np
-seaborn 
 scikit-learn
-transformers==5.8.0 
-torch 
+transformers==5.8.0
+torch
 tiktoken
 sentencepiece
+protobuf<5
+peft
+accelerate
 lime
