@@ -1,4 +1,4 @@
-# Q4 errors hand-off (for Shoeb)
+# Misclassified test examples
 
 Source adapter: `HuggingFaceTB/SmolLM2-1.7B` + LoRA, trained on `en-UK` with seed 2024. Selected as the overall best adapter by mean validation Macro-F1 across the 3 test sets. Reported numbers and the misclassified examples below come from the held-out test split for that val-selected adapter.
 
@@ -12,5 +12,3 @@ Columns:
 - `base_model` -- Hugging Face ID of the base model used
 - `training_variety` -- variety the adapter was trained on (en-UK in this case)
 - `seed` -- random seed used during the adapter's training
-
-For Q4: pick any 4 examples to write a Few-Shot Prompt with your own explanations, test the remaining 6 against that prompt per the spec, and report the before/after analysis.
